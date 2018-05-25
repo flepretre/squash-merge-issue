@@ -12,7 +12,7 @@ You have no conflict with **master**, the diff in github shows only the work of 
 
 Now if you *squash merge* the branch **B**, here is what happens:
 - all commits from the branch **A** (that are still in branch **B**) and all commits of the branch **B** are squashed together
-- due to the fact they were related to **master** before the merge of the branch **A**, the fusion of the code from **A** and its removal from **B** will result in a empty diff
+- due to the fact they were related to **master** before the merge of the branch **A**, the fusion of the code from **A** and its removal from **B** will result in an empty diff
 - the empty diff is now part of the squashed commit
 - the rebase applies the diff of the squash commit on **master**, so it applies the empty diff
 
