@@ -18,7 +18,7 @@ Now if you *squash merge* the branch **B**, here is what happens:
 
 So once your branch is *squash merged* on **master**, the code you remove from **A** will remain on **master**.
 
-:warning: This is not a bug from Github, this is a bad usage of git, you can do this mistake with or without Github.
+:warning: This is not a bug from GitHub, this is a bad usage of git, you can do this mistake with or without GitHub.
 
 ## Commits
 
